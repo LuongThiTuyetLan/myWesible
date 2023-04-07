@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liên hệ</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="img/logo.png" width="200" height="30"></a>
+      <button class="navbar-toggler" type="button " data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Trang chủ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="lienhe.html">Liên hệ</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Tin tức
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Hình ảnh</a></li>
+              <li><a class="dropdown-item" href="#">Video</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a href="tintuc.html">Thông tin báo chí</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Diễn đàn</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit"><i class="fa fa-search " ></i></button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="img/h2.jpg" class="d-block w-100 ">
+        </div>
+        <div class="carousel-item ">
+            <img src="img/hinh1.jpg" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+            <img src="img/hinh3.jpg" class="d-block w-100 ">
+        </div>
+        
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Chào mừng</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-sm-5">
+      <h2>Văn phòng chính</h2>
+      <p>01 Lê Đại Hành, phường 1, Tp Đà Lạt,  tỉnh Lâm Đồng</p>
+      <p>Số điện thoại: (+84) *** *** **** <br>
+        Hotline: (+84) ** **** *** </p>
+      <p>Email: info@dalattourist.com.vn <br>
+        Website: https://dalattourist.com.vn/</p>
+      <h3 class="mt-4">Văn phòng chi nhánh</h3>      
+      <ul class="nav nav-pills flex-column">
+          <p>18A/40/1 Nguyễn Thị Minh Khai, phường Dakao, quận 1, Tp Hồ Chí Minh</p>
+          <p>Số điện thoại: (+84) *** *** **** <br>
+            Hotline: (+84) ** **** ***  </p>
+          <p>Email: info@dalattourist1.com.v</p>
+        
+      </ul>
+      <hr class="d-sm-none">
+    </div>
+    <!--bẢNG LIÊN HỆ-->
+    <div class="col-sm-7">
+      <h2>LIÊN HỆ</h2>
+      <form action="/action_page.php">
+        <div class="form-group my-3">
+          <label for="name" class="mb-2">Họ và tên</label>
+          <input type="text" class="form-control" id="name" required>
+      </div>
+      <div class="form-group my-3">
+          <label for="name" class="mb-2">Số điện thoại:</label>
+          <input type="text" class="form-control" id="sdt" required>
+      </div>
+      <div class="form-group my-3">
+          <label for="email" class="mb-2">Email:</label>
+          <input type="email" class="form-control" id="email" required>
+      </div>
+      <div class="form-group my-3">
+          <label for="message" class="mb-2">Nội dung:</label>
+          <textarea class="form-control" id="message" rows="5"></textarea>
+      </div>
+      <button type="button" class="btn btn-success">Gửi</button>
+        
+    </form>
+    </div>
+  </div>
+</div>
+<!--VĂN PHÒNG CHÍNH-->
+<div class="container">
+              <h2>Văn phòng chính</h2><br>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3903.4673641641452!2d108.43453521489556!3d11.942109591537065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3171132f18d0247f%3A0xbe64f92ce7cb6192!2zQ8O0bmcgVHkgRHUgTOG7i2NoIEzDom0gxJDhu5NuZyAoRGFsYXR0b3VyaXN0KQ!5e0!3m2!1sen!2s!4v1680771171223!5m2!1sen!2s"
+              width="100%" height="200px" style="border: 1px;;" 
+              allowfullscreen="" loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+         
+</div>
+<!-- GG MAP VĂN PHÒNG CHI NHÁNH -->
+
+<div class="container">  
+              <h2>Văn phòng chi nhánh</h2><br>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15677.309857653994!2d106.69133468633541!3d10.78621215630339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752fc02e9a71ed%3A0x3834749c4f170216!2zMThBIMSQLiBOZ3V54buFbiBUaOG7iyBNaW5oIEtoYWksIMSQYSBLYW8sIFF14bqtbiAxLCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1680771778879!5m2!1svi!2s" 
+              width="100%" height="200px" style="border:5px;" allowfullscreen="" loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<!--footer-->
+  
+<div class="container mt-5 alert alert-success">
+  <div class="row">
+    <div class="col-sm-4">
+      <img src="img/logo.png" width="200" height="60">
+      <p>MST: 5800271921</p>
+      <p>Hotline: (+84) 98 1166 088</p>
+      <p>VP chính: 01 Lê Đại Hành, Phường 1, Đà Lạt.</p>
+      <p>VP chi nhánh: 18A/40/1 Nguyễn Thị Minh Khai, Phường Dakao, Quận 1, Tp Hồ Chí Minh</p>
+    </div>
+    <div class="col-sm-4">
+      <p>Lấy chất lượng phục vụ chuyên<br> nghiệp và mức độ hài lòng của <br>khách hàng làm tiêu chí phấn<br> đấu. Luôn khai thác, đầu tư chiều <br>sâu các sản phẩm dịch vụ độc<br> đáo từ nguồn tài nguyên có sẵn,<br> đồng thời bảo tồn thiên nhiên bền <br>vững, thân thiện với môi trường.</p>
+    </div>
+    <div class="col-sm-4">  
+      <h3>Liên kết</h3>    
+        <p>Trang cổ đông</p>
+        <p>Điều khoản sử dụng</p>
+        <p>Quy định bảo mật</p>
+        <p>Download profile Dalaytourist</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
